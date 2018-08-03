@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #008060;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #008060;
+}
+
+
+
+div {
+    border-radius: 2px;
+    background-color: #c3d5d5;
+    padding: 20px;
+}
+</style>
+
+<body>
+
+<h2> <center> Regestier </h2>
+
+<div>
+	
+<form method="POST" action="/Res_form.php">
+	<center>
+  ID/Passport Number:<br>
+  <input type="text" name="ID/Passport Num" value="" >
+  <br><br>
+  First name:<br>
+  <input type="text" name="Firstname" value="" >
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+  Enter a card password:<br>
+  <input type="text" name="pass" value="" >
+  <br><br>
+  Retry card password:<br>
+  <input type="text" name="passRe" value="" >
+  <br><br>
+  Phone number<br>
+  <input type="text" name="PhoneNum" value="">
+  <br><br>
+  Amount you want to charge:<br>
+  <input type="text" name="PhoneNum" value="" placeholder="100$"> 
+  <br><br>
+  Choose your currency:<br>
+   <label for=Currency>
+	   <select id="Currency" name="Currency">
+       <option value="Saudi arabia">SR</option>
+       <option value="USA">USD</option>
+       <option value="euro">ERU</option>
+     </select>
+  <br><br>
+  
+  
+  <input type="submit" value="Submit"> 
+</div>
+</form> 
+
+ 
+
+</body>
+</html>
+
+
